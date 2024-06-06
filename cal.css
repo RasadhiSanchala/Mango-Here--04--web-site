@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('images/bgimage03.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .title {
+    color: rgb(7, 7, 7);
+    font-family: Arial;
+    text-align: center; /* Changing to center align the title */
+    margin-bottom: 20px; /* Adding some space between the title and the calculator */
+  }
+  .calculation {
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px 5px rgb(89, 89, 91);
+  }
+  .calculator-button {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .gray-button {
+    background-color: rgb(51, 51, 51);
+    color: white;
+  }
+  .orange-button {
+    background-color: rgb(209, 80, 44);
+    color: white;
+  }
+  .clear-button {
+    font-size: 17px;
+  }
+  .cs-calculator {
+    box-shadow: 10px 10px 10px #918e9c;
+    font-family: Georgia, serif; /* Added a fallback font */
+    padding: 25px;
+    background-color: rgb(220, 220, 244);
+    display: inline-block; /* Added to make the box fit content */
+  }
+  .footer {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+  }
