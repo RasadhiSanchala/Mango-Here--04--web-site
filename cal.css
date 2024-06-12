@@ -20,6 +20,7 @@ body {
   }
   .calculation {
     color: rgb(0, 0, 0);
+    font-family:  Arial; 
     font-size: 45px;
     margin-top: 15px;
     margin-bottom: 5px;
