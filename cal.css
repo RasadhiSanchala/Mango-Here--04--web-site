@@ -47,7 +47,7 @@ body {
   }
   .cs-calculator {
     box-shadow: 10px 10px 10px #918e9c;
-    font-family: Georgia, serif; /* Added a fallback font */
+    font-family:  Arial; /* Added a fallback font */
     padding: 25px;
     background-color: rgb(220, 220, 244);
     display: inline-block; /* Added to make the box fit content */
