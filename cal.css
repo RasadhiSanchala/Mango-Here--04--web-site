@@ -62,6 +62,6 @@ body {
 @media (max-width: 768px) {
     .calculator-button {
         height: 50px;
-        width: 50px;
+        width: 60px;
         font-size: 1.3rem;
     }
