@@ -58,3 +58,10 @@ body {
     text-align: center;
     color: rgb(3, 3, 3);
   }
+/* Media query for medium-sized screens */
+@media (max-width: 768px) {
+    .calculator-button {
+        height: 50px;
+        width: 50px;
+        font-size: 1.3rem;
+    }
